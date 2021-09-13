@@ -14,18 +14,24 @@ to generate this file without the comments in this block.
 , dependencies =
   [ "aff"
   , "affjax"
+  , "ansi"
   , "argonaut"
   , "argonaut-codecs"
-  , "argonaut-core"
+  , "arrays"
   , "console"
   , "effect"
   , "either"
   , "foldable-traversable"
   , "http-methods"
   , "integers"
+  , "maybe"
   , "prelude"
+  , "profunctor-lenses"
   , "psci-support"
-  , "strings"
+  , "web-dom"
+  , "web-events"
+  , "web-html"
+  , "web-uievents"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
